@@ -1,0 +1,192 @@
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-streaming-2.6.0.jar[0m
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF\MANIFEST.MF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF\maven\org.apache.hadoop\hadoop-streaming\pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF\maven\org.apache.hadoop\hadoop-streaming\pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mStrategy 'discard' was applied to 3 files[0m
+[0m[[0minfo[0m] [0mSHA-1: af7ab1440d7c7e1228cc30963d717a02c9c8344b[0m
+[0m[[0minfo[0m] [0mPackaging D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\Evaluator-0.1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$10.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$10.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$11.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$11.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$12$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$12$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$12.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$12.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$6$$anonfun$apply$1$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$6$$anonfun$apply$1$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$6$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$6$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$7.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$7.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8$$anonfun$apply$2$$anon$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$8$$anonfun$apply$2$$anon$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$8$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$8.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$9.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$9.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$1$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$1$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator.class[0m
+[0m[[0mdebug[0m] [0m	main\HadoopRDDGenerator$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\HadoopRDDGenerator$.class[0m
+[0m[[0mdebug[0m] [0m	main\HadoopRDDGenerator.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\HadoopRDDGenerator.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$3$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$3$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$5$$anonfun$apply$6.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$5$$anonfun$apply$6.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$5.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$7.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$7.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$apply$7.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$apply$7.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\AutoInputFormat.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\AutoInputFormat.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\DumpTypedBytes.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\DumpTypedBytes.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\Environment.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\Environment.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\HadoopStreaming.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\HadoopStreaming.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\JarBuilder.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\JarBuilder.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\LoadTypedBytes.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\LoadTypedBytes.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PathFinder.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PathFinder.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PipeCombiner.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PipeCombiner.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PipeMapRed$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PipeMapRed$1.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PipeMapRed$MRErrorThread.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PipeMapRed$MRErrorThread.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PipeMapRed$MROutputThread.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PipeMapRed$MROutputThread.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PipeMapRed.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PipeMapRed.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PipeMapRunner.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PipeMapRunner.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PipeMapper.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PipeMapper.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\PipeReducer.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\PipeReducer.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\StreamBaseRecordReader.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\StreamBaseRecordReader.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\StreamInputFormat.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\StreamInputFormat.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\StreamJob.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\StreamJob.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\StreamKeyValUtil.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\StreamKeyValUtil.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\StreamUtil.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\StreamUtil.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\StreamXmlRecordReader.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\StreamXmlRecordReader.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\IdentifierResolver.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\IdentifierResolver.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\InputWriter.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\InputWriter.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\KeyOnlyTextInputWriter.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\KeyOnlyTextInputWriter.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\KeyOnlyTextOutputReader.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\KeyOnlyTextOutputReader.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\OutputReader.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\OutputReader.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\RawBytesInputWriter.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\RawBytesInputWriter.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\RawBytesOutputReader.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\RawBytesOutputReader.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\TextInputWriter.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\TextInputWriter.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\TextOutputReader.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\TextOutputReader.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\TypedBytesInputWriter.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\TypedBytesInputWriter.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\streaming\io\TypedBytesOutputReader.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\streaming\io\TypedBytesOutputReader.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\Type.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\Type.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesInput$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesInput$1.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesInput.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesInput.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesOutput$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesOutput$1.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesOutput.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesOutput.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesRecordInput$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesRecordInput$1.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesRecordInput$TypedBytesIndex.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesRecordInput$TypedBytesIndex.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesRecordInput.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesRecordInput.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesRecordOutput$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesRecordOutput$1.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesRecordOutput.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesRecordOutput.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesWritable.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesWritable.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesWritableInput$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesWritableInput$1.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesWritableInput$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesWritableInput$2.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesWritableInput.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesWritableInput.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesWritableOutput$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesWritableOutput$1.class[0m
+[0m[[0mdebug[0m] [0m	org\apache\hadoop\typedbytes\TypedBytesWritableOutput.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\7a0ff32517608982c67719887f9078bb97397478_50ce23fba38dd35924a121408b8f29d938f38c0c\org\apache\hadoop\typedbytes\TypedBytesWritableOutput.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
