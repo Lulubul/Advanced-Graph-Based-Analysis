@@ -66,7 +66,7 @@ object Evaluator {
   
     sc.stop()*/
   
-    top20Affiliations.foreach(r => println(r._1 + "|" + r._2.map(x => x.year + "|" + x.subjects + ": " + x.subjects.size).distinct))
+    top20Affiliations.foreach(r => println(r._1 + "| " + r._2.map(x => x.subjects.size).sum + " |"  + r._2.map(x => x.year + "|" + x.subjects + ": " + x.subjects.size).distinct))
     //recordsList.foreach(r => println(r.year + "|" + r.subjects + "|" + r.affiliations ))
     //rawRecords.foreach(println)
     //println(topKwds)
