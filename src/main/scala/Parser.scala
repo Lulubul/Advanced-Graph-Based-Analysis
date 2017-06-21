@@ -3,22 +3,34 @@ package main
 import org.apache.spark.rdd.RDD
 import scala.xml.XML
 import scala.xml.Node
+import scala.xml.NodeSeq
 import org.apache.hadoop.io.Text 
 import scala.collection.mutable.ListBuffer
 
 object Parser {
-def parse(records: RDD[(Text, Text)]) = {
-  val deHadoopedRecords = records.map(hadoopXML=>hadoopXML._1.toString)
-	
-  //Shows that multiple lines
-  deHadoopedRecords.map(recordString=>{
-    val recordXML = XML.loadString(recordString)
-    val articleFrontMeta = (recordXML \ "metadata" \ "article" \ "front" \ "article-meta")
-    val articleSubjects = (articleFrontMeta  \ "article-categories" \ "subj-group" \ "subject")
-    val subjects = articleSubjects.map(s => s.text.filter(_ >= ' ').trim).mkString(", ")
-    val articlekwds = (articleFrontMeta  \\ "kwd")
-    val keywords = articlekwds.map(s => s.text.filter(_ >= ' ').trim).mkString(", ")
-    
+  def parse(records: RDD[(Text, Text)]) = {
+    val deHadoopedRecords = records.map(hadoopXML=>hadoopXML._1.toString)
+  	
+    //Shows that multiple lines
+    deHadoopedRecords.map(recordString=>{
+      val recordXML = XML.loadString(recordString)
+      val articleFrontMeta = (recordXML \ "metadata" \ "article" \ "front" \ "article-meta")
+      
+      val articleSubjects = (articleFrontMeta  \ "article-categories" \ "subj-group" \ "subject")
+      val subjects = articleSubjects.map(s => s.text.filter(_ >= ' ').trim).mkString(", ")
+      
+      val articlekwds = (articleFrontMeta  \\ "kwd")
+      val keywords = articlekwds.map(s => s.text.filter(_ >= ' ').trim.toLowerCase).mkString(", ")
+
+      val affiliations = getAffiliations(articleFrontMeta)
+      
+      val pubYear = getPubYear(articleFrontMeta)
+      
+      keywords + "|" + pubYear + "|" + affiliations + "|" + subjects
+    })
+  }
+  
+  def getAffiliations(articleFrontMeta: NodeSeq) = {
     var affNodes = (articleFrontMeta \\ "aff")
     
     val affs = affNodes.map(aff => {
@@ -42,7 +54,7 @@ def parse(records: RDD[(Text, Text)]) = {
               } else {
                 val affText = aff.text.split(",")
                 if (affText.length > 1) {
-                  affCity = affText(affText.length - 2).split(" ").filterNot(_.exists(_.isDigit)).mkString(" ").trim
+                  affCity = getAffCity(affText(affText.length - 2))
                 }
               }
               affCountry = contryNodeTextSplitted(0).trim
@@ -51,7 +63,7 @@ def parse(records: RDD[(Text, Text)]) = {
       } else {
         val affText = aff.text.split(",")
         if (affText.length > 1) {
-          affCity = affText(affText.length - 2).split(" ").filterNot(_.exists(_.isDigit)).mkString(" ").trim
+          affCity = getAffCity(affText(affText.length - 2))
           
           affCountry = affText(affText.length - 1).replaceAll("\n", "").trim.replaceAll("[\\.\\;]$", "");
           if (affCountry.contains(".")) {
@@ -61,28 +73,34 @@ def parse(records: RDD[(Text, Text)]) = {
         }
       }
       
-      new {val city = affCity; val country = affCountry.replaceAll("[\\(\\)]", "")}
+      new { val city = affCity; val country = affCountry.replaceAll("[\\(\\)]", "") }
     }).toList
-    //val affiliations = affs.filter(a => a.city.length() > 0 && a.country.length() > 0).map(a => a.city + ", " + a.country).mkString(", ")
-    val affiliations = affs.filter(a => a.city.length() > 0 && a.country.length() > 0).map(a => a.city + "- " + a.country).distinct.mkString(", ")
+
+    //affs.map(a => a.city + " - " + a.country).distinct.mkString(", ")
+    affs.map(a => a.country).distinct.mkString(", ")
+  }
+  
+  def getAffCity(lastButOneAffText: String) = {
+    lastButOneAffText.split(" ").filterNot(_.exists(_.isDigit)).mkString(" ").trim
+  }
+  
+  def getPubYear(articleFrontMeta: NodeSeq) = {
+    val pubDateNodes = (articleFrontMeta \ "pub-date")
     
-    val pubDateNodes = (recordXML \ "metadata" \ "article" \ "front" \ "article-meta" \ "pub-date")
     var pubDateNodeFiltered = pubDateNodes.filter(p => pubDateFilter(p \ "@pub-type" toString))
     if (pubDateNodeFiltered.isEmpty) {
       pubDateNodeFiltered = pubDateNodes.filter(p => pubDateFilter(p \ "@date-type" toString))
     }
-    
-    val pubYear = (pubDateNodeFiltered \ "year").text
-    
-    keywords + "|" + pubYear + "|" + affiliations + "|" + subjects
-  }).filter(r => {
-    val recordSplitted = r.split('|')
-    val kwds = recordSplitted(0)
-    kwds.length > 0 && recordSplitted.length == 4
-  })
-}
-
-def pubDateFilter(value: String) = {
-  value == "collection" || value == "ppub"
-}
+    if (pubDateNodeFiltered.isEmpty) {
+      pubDateNodeFiltered = pubDateNodes.filter(p => (p \ "@pub-type").toString == "epub")
+    }
+    if (!pubDateNodeFiltered.isEmpty) {
+      pubDateNodeFiltered = pubDateNodeFiltered.head
+    }
+    (pubDateNodeFiltered \ "year").text.replaceAll("\n", "").trim
+  }
+  
+  def pubDateFilter(value: String) = {
+    value == "collection" || value == "ppub"
+  }
 }

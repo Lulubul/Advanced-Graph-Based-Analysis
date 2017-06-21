@@ -6,7 +6,7 @@
 [0m[[33mwarn[0m] [0mMerging 'META-INF\maven\org.apache.hadoop\hadoop-streaming\pom.properties' with strategy 'discard'[0m
 [0m[[33mwarn[0m] [0mMerging 'META-INF\maven\org.apache.hadoop\hadoop-streaming\pom.xml' with strategy 'discard'[0m
 [0m[[33mwarn[0m] [0mStrategy 'discard' was applied to 3 files[0m
-[0m[[0minfo[0m] [0mSHA-1: e485776152f36b9483aef4f0155d3c3448afa42b[0m
+[0m[[0minfo[0m] [0mSHA-1: 3ca3dd17b29b13be6f483cd1b9126262ed285693[0m
 [0m[[0minfo[0m] [0mPackaging D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\Evaluator-0.1.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$1.class[0m
@@ -15,10 +15,6 @@
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$10.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$11.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$11.class[0m
-[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$12$$anonfun$apply$3.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$12$$anonfun$apply$3.class[0m
-[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$12.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$12.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$3.class[0m
@@ -27,28 +23,62 @@
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$4.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$5.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$5.class[0m
-[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$6$$anonfun$apply$1$$anon$1.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$6$$anonfun$apply$1$$anon$1.class[0m
-[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$6$$anonfun$apply$1.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$6$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$6.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$6.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$7.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$7.class[0m
-[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8$$anonfun$apply$2$$anon$2.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$8$$anonfun$apply$2$$anon$2.class[0m
-[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8$$anonfun$apply$2.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$8$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8$$anonfun$apply$1$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$8$$anonfun$apply$1$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$8$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$8.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$9.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$9.class[0m
-[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$1$$anonfun$apply$4.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$1$$anonfun$apply$4.class[0m
-[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$1$$anonfun$apply$5.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$1$$anonfun$apply$5.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$12.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$12.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$13.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$13.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$14.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$14.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$15.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$15.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$16.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$16.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$17.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$17.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$18.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$18.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$19.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$19.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$20.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$20.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$21.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$21.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$22.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$22.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$23.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$23.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$24.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$24.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$25.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$25.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$26.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$26.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$27.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$27.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$3$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$$anonfun$main$3.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Evaluator$.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator.class[0m
@@ -59,6 +89,22 @@
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\HadoopRDDGenerator.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$4$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$4$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$getAffCity$1$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$getAffCity$1$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$getAffCity$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$getAffCity$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$getAffiliations$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$getAffiliations$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$getPubYear$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$getPubYear$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$getPubYear$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$getPubYear$2.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$2$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$2$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$2.class[0m
@@ -67,30 +113,8 @@
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$3$$anonfun$apply$2.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$3.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$3.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anon$1.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anon$1.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$3.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$3.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$5$$anonfun$apply$6.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$5$$anonfun$apply$6.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$5.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4$$anonfun$apply$5.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$4.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$4.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$5.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$5.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$6.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$6.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$7.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$7.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$apply$7.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1$$anonfun$apply$7.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$1.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$2.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$$anonfun$parse$2.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\streams\$global\assemblyOption\$global\streams\assembly\6986d30d3cf3d05dd5ef2711255e3a01afa0832a_dir\main\Parser$.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser.class[0m

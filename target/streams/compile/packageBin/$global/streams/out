@@ -1,31 +1,93 @@
 [0m[[0minfo[0m] [0mPackaging D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\evaluator_2.10-0.1.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$10$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$10$$anonfun$apply$2.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$parse$1.class[0m
 [0m[[0mdebug[0m] [0m	main\HadoopRDDGenerator.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\HadoopRDDGenerator.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$11.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$11.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$3.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$parse$1$$anonfun$3.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$13.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$13.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$1$$anonfun$apply$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$main$1$$anonfun$apply$5.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$8$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$main$1.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$apply$1.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$parse$1$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$4$$anonfun$apply$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$4$$anonfun$apply$5.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$3$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$parse$1$$anonfun$3$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$parse$1$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$7.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$7.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	main\HadoopRDDGenerator$.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\HadoopRDDGenerator$.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$8.class[0m
 [0m[[0mdebug[0m] [0m	main[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$main$1$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$main$1$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$14$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$14$$anonfun$apply$3.class[0m
 [0m[[0mdebug[0m] [0m	main\Evaluator$.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$8$$anonfun$apply$1$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$8$$anonfun$apply$1$$anon$1.class[0m
 [0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$parse$1$$anonfun$2.class[0m
-[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$parse$1$$anonfun$2$$anon$1.class[0m
-[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$parse$1$$anonfun$2$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$getAffiliations$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$getAffiliations$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$9.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$9.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$getPubYear$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$getPubYear$2.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$12.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$12.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$getPubYear$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$getPubYear$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$10.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$10.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$4$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$4$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$14.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$14.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$4$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$4$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Parser$$anonfun$4$$anonfun$apply$5$$anonfun$apply$6.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Parser$$anonfun$4$$anonfun$apply$5$$anonfun$apply$6.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	main\Evaluator$$anonfun$10$$anonfun$apply$2$$anon$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\Informatica\Master\Big Data Analysis\Project\target\scala-2.10\classes\main\Evaluator$$anonfun$10$$anonfun$apply$2$$anon$2.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m

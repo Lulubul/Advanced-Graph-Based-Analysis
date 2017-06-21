@@ -11,64 +11,109 @@ object Evaluator {
     
     val records = HadoopRDDGenerator.createUsing(sc, withPath = args(0))
 
-    val rawRecords = Parser.parse(records).collect
+    val totalRawRecords = Parser.parse(records).collect
     
-    val kwdsOccurrence =  rawRecords.map(r => {
-      r.split('|')(0).split(", ")
-    }).toList.flatten.groupBy(identity).mapValues(_.size).filterNot(_._1 matches "(Iran|China)" )
-    
-    /*
-    //sort by comparing values
-    val topKwds = kwdsOccurrence.toList.sortBy(-_._2).take(50).map(_._1)
-    
-    val recordsList = rawRecords.map(r => {
+    val rawRecords = totalRawRecords.filter(r => {
       val recordSplitted = r.split('|')
-      val kwds = recordSplitted(0).split(", ").filter(k => topKwds.contains(k))
+      val kwds = recordSplitted(0)
+      kwds.length > 0 && recordSplitted.length == 4
+    })
+    
+    val topKwdsOcc = rawRecords.map(r => {
+      val recordSplitted = r.split('|')
+      val kwds = recordSplitted(0)
+      kwds.split(", ")
+    }).toList.flatten.groupBy(identity).mapValues(_.size).filterNot(_._1 matches "(Iran|China)")
+    
+    val topKwds = topKwdsOcc.toSeq.sortBy(-_._2).take(10)
+    println("\nTop Keywords:")
+    topKwds.foreach(k => println(k._1 + ": " + k._2))
+        
+    var recordsByAff = rawRecords.map(r => {
+      val recordSplitted = r.split('|')
+      val kwds = recordSplitted(0)
       val pubYear = recordSplitted(1)
       val affs = recordSplitted(2)
       val subs = recordSplitted(3)
-      kwds.map(k => new {val kwd = k; val year = pubYear; val affiliations = affs; val subjects = subs})
-    }).toList.flatten*/
+      affs.split(", ").map(a => {
+        /*var aff = a
+        if (a.split("-")(0).trim.length == 0) { // no City
+          aff = a.replaceAll("-", "").trim
+        }*/
+        new {
+          val keywords = kwds
+          val year = pubYear
+          val affiliation = a
+          val subjects = subs
+        }
+      })
+    }).toList.flatten.groupBy(a => a.affiliation)
     
+    recordsByAff.filterNot(a => { val aff = a._1.trim; aff.isEmpty() && aff.length < 2 })
     
+    val sortedAffiliations = recordsByAff.toSeq.sortBy(aff => { val affRecords = aff._2; - affRecords.length })
     
-    val recordsList = rawRecords.map(r => {
-      val recordSplitted = r.split('|')
-      val pubYear = recordSplitted(1)
-      val affs = recordSplitted(2)
-      val subs = recordSplitted(3)
-      affs.split(", ").map(k => new { val year = pubYear; val affiliation = k; val subjects = subs })
-    }).toList.flatten
-    
-    
-    val sortedRecords = recordsList.map(r => {
-      val subjects = r.subjects.split(", ")
-      subjects.map(k => new { val year = r.year; val affiliation = r.affiliation; val subjects = k })
-    }).toList.flatten.sortBy(r => r.year).groupBy(r => r.affiliation)  
-    
-    
-    val top20Affiliations = sortedRecords.toSeq.sortBy(r => - r._2.map(x => x.subjects.size).sum).take(20)
-    
-	  //val recordsByCategory = rawRecords.groupBy(r => r.category)
-  	/*val categories = rawRecords.map(s => s(1)).distinct().zipWithIndex.collectAsMap
-  	
-  	val parsedData = rawRecords.map(s => Vectors.dense(Array(s(0).toDouble, categories.get(s(1)).get.toDouble))).cache()
-  	
-  	val numClusters = 2
-  	val numIterations = 20
-  	val clusters = KMeans.train(parsedData, numClusters, numIterations)
-  	
-  	val WSSSE = clusters.computeCost(parsedData)
-    println("Within Set Sum of Squared Errors = " + WSSSE)
-    
-    val vectors = parsedData.collect()
-    vectors.map(v => println(clusters.predict(v)+" "+v.toString))
-  
-    sc.stop()*/
-  
-    top20Affiliations.foreach(r => println(r._1 + "| " + r._2.map(x => x.subjects.size).sum + " |"  + r._2.map(x => x.year + "|" + x.subjects + ": " + x.subjects.size).distinct))
-    //recordsList.foreach(r => println(r.year + "|" + r.subjects + "|" + r.affiliations ))
-    //rawRecords.foreach(println)
-    //println(topKwds)
+    val topAffiliations = sortedAffiliations.take(20)
+
+    topAffiliations.foreach(
+        aff => {
+          val affiliation = aff._1
+          val records = aff._2
+          
+          println("\nAffiliation: " + affiliation + " | Records: " + records.length)
+          
+          val keywordsOcc = records.map(m => {
+            m.keywords.split(", ")
+          }).toList
+          .flatten
+          .groupBy(identity)
+          .mapValues(_.size)
+          .filterNot(_._1 matches "(Iran|China|Korea|Germany|India|Japan|Japanese|Italy|Canada|Australia|France|Brazil|Spain|Sweden)")
+          
+          val keywordsByOcc = keywordsOcc.toSeq.sortBy(-_._2)
+          
+          val tenthKeywordOcc = keywordsByOcc.take(10).last._2
+          val topKeywords = keywordsByOcc.takeWhile(k => {
+            val keywordOcc = k._2
+            keywordOcc >= tenthKeywordOcc && keywordOcc > 1
+          })
+          val topKeywordsValues = topKeywords.map(_._1)
+          
+          println("Top keywords: ")
+          topKeywords.foreach(k => {
+            val keyword = k._1
+            val occurrence = k._2
+            println(keyword + ": " + occurrence)
+          })
+          
+          val recordsByYear = records.groupBy(r => r.year)
+          val recordsByYearSorted = recordsByYear.toSeq.sortBy(r => {val year = r._1; year})
+          recordsByYearSorted.foreach(              
+              r => {
+                val year = r._1
+                val recordsMeta = r._2
+                
+                val kwdsOcc = recordsMeta.map(m => {
+                  m.keywords.split(", ")
+                }).toList.flatten.groupBy(identity).mapValues(_.size)
+                val kwdsByOcc = kwdsOcc.toSeq.sortBy(-_._2)
+                val topKwds = kwdsByOcc.filter(k => topKeywordsValues.contains(k._1))
+                
+                if (topKwds.length > 0) {
+                  println("\tYear: " + year + " | Records: " + recordsMeta.length)
+                  
+                  println("\t\tKeywords: ")
+                  topKwds.foreach(k => {
+                    val keyword = k._1
+                    val occurrence = k._2
+                    println("\t\t\t" + keyword + ": " + occurrence)
+                  })
+                }
+              }
+          )
+          println("\n-----------------------------------------------------------------------")
+        }
+    )
+    println("totalRawRecords: " + totalRawRecords.length + " rawRecords: " + rawRecords.length)
   }
 }
